@@ -1,0 +1,68 @@
+body {
+	background: #41a658;
+	font-family: Montserrat;
+}
+.zadnii{
+	background: url("Xr_OclUL1y0.jpg");
+	height:100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.head {
+	width: 100%;
+	z-index: 1000;
+}
+.disp {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.head__logo {
+	font-size: 30;
+	background: #FED9BA;
+	border-radius: 7px;
+	padding: 10px;
+	font-weight:1000;
+}
+.zfr {
+	background: #008000;
+	font-size:22;
+	color: white;
+	text-decoration: none;
+	border-radius: 6px;
+	padding: 10px;
+	margin: 0 10px;
+	font-weight:1000;
+}
+.zfr:hover {
+	color:black;
+	transition: color .2s linear;
+}
+.zfr1 {
+	background: #008000;
+	font-size:22;
+	color: black;
+	text-decoration: none;
+	border-radius: 6px;
+	padding: 10px;
+	margin: 0 10px;
+	font-weight:1000;
+}
+.fon {
+	background: hwb(0 80% 19%);
+	margin: 0 auto;
+	height: 100%;
+	opacity: .9;
+	width: 80%
+}
+h1 {
+	padding-top: 35px;
+	text-align: center;
+}
+p {
+	font-size:18;
+	padding:10px;
+	text-align: left;
+	line-height: 1.5;
+	text-indent: 30px	
+}
